@@ -1,0 +1,315 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\InvoiceManager\\InvoiceManager.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Bll\\Inventory.Bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Bll\\Inventory.Bll.csproj",
+        "projectName": "Inventory.Bll",
+        "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Bll\\Inventory.Bll.csproj",
+        "packagesPath": "C:\\Users\\Tarun Khurana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Bll\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tarun Khurana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\Inventory.Dal.csproj": {
+                "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\Inventory.Dal.csproj"
+              },
+              "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\Inventory.Modals.csproj": {
+                "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\Inventory.Modals.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\Inventory.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\Inventory.Dal.csproj",
+        "projectName": "Inventory.Dal",
+        "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\Inventory.Dal.csproj",
+        "packagesPath": "C:\\Users\\Tarun Khurana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tarun Khurana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\Inventory.Modals.csproj": {
+                "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\Inventory.Modals.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\Inventory.Modals.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\Inventory.Modals.csproj",
+        "projectName": "Inventory.Modals",
+        "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\Inventory.Modals.csproj",
+        "packagesPath": "C:\\Users\\Tarun Khurana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Modals\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tarun Khurana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\InvoiceManager\\InvoiceManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\InvoiceManager\\InvoiceManager.csproj",
+        "projectName": "InvoiceManager",
+        "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\InvoiceManager\\InvoiceManager.csproj",
+        "packagesPath": "C:\\Users\\Tarun Khurana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\InvoiceManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tarun Khurana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Bll\\Inventory.Bll.csproj": {
+                "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Bll\\Inventory.Bll.csproj"
+              },
+              "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\Inventory.Dal.csproj": {
+                "projectPath": "C:\\Users\\Tarun Khurana\\Desktop\\ChiragCoreTet\\Inventory.Dal\\Inventory.Dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0-preview1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
